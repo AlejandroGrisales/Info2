@@ -8,6 +8,6 @@ class Ejemplo:
     def metodo_publico(self):
         return self.__metodo_privado()
 
-e = Ejemplo()
-print(e.atributo_publico())
-e.metodo_publico()
+#e = Ejemplo()
+#print(e.atributo_publico())
+#e.metodo_publico()
