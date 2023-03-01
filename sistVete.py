@@ -10,7 +10,7 @@ class Medicamento:
         for x in self.__medicamentos.find[{'Nombre': nombre }]:
             return print(x)        
     def asignarNombreDosis(self, nombre_med, dosis):
-        self.__medicamento = self.__medicamentos.insert_one
+        self.__medicamento = self.__medicamentos.insert_one({"Nombre":nombre_med, "Dosis":dosis})
 
 def main():
     client = pymongo.MongoClient("mongodb+srv://AlejandroGrisalesP:alejandroinfo2@clustera.mmuq0jw.mongodb.net/?retryWrites=true&w=majority")
