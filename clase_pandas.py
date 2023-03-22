@@ -18,10 +18,10 @@ f=pd.Series(5,index=["a","b","c","d","e"])
 without = s.dropna()
 #print(without)
 
-current=os.getcwd()
-file=glob.glob(current+"/*.csv")
+# current=os.getcwd()
+# file=glob.glob(current+"/*.csv")
 #mmse=pd.read_csv(file[0],sep=";")
-mmse2 =  pd.read_csv(r"C:\Users\SALASDRAI\Desktop\rsposi\MMSE.csv",sep=";")
+mmse2 =  pd.read_csv(r"C:\Users\SALASDRAI\Desktop\clase\Info2\MMSE.csv",sep=";")
 #print(mmse2)
 
 mmse2.size
